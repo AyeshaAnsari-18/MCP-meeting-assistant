@@ -79,11 +79,3 @@ def get_today_meetings() -> str:
 if __name__ == "__main__":
     mcp.run()
 
-
-# uv run mcp install main.py
-# pip install --upgrade typer
-
-"""Schedule meeting:
-schedule_meeting("Project Sync", "2025-06-19", ["Ayesha", "Mishkaat"])
-schedule_meeting("Introductory", "2025-06-16", ["Ayesha", "Unzila"])
-schedule_meeting("Data Analysis", "2025-06-18", ["Unzila","Ayesha", "Mishkaat"]) """
